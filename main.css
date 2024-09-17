@@ -1,16 +1,20 @@
 body{
-    background-color: #d8d8d8;
-    
+    background-color: #f0f0f0;
+    font-family:sans-serif;
+    margin: 0;
 }
+
 header{
-    justify-content: center;
     display: flex;
     margin-bottom: 0px;
+    background-color: rgb(209, 209, 209);
 }
+
 h1{
     font-size: 50px;
     cursor: pointer;
 }
+
 main{
     height: 2px;
     background-color: black;
@@ -19,4 +23,14 @@ main{
     left: 0;right: 0;
     text-align: center;
     line-height: 50px;
+}
+
+.git{
+    display: flex;
+}
+
+.git_Z{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
