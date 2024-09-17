@@ -156,3 +156,11 @@ main{
 .dollar{
     width: 23px;
 }
+
+.reg{
+    margin-top: 100px;
+}
+
+.reg_T{
+    font-size: 20px;
+}
