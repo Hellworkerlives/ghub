@@ -83,12 +83,37 @@ main{
     background-color: rgb(209, 209, 209); ;
     border-radius: 50px;
     width: 900px;
-    margin-left: 500px;
+    margin-left: 475px;
     padding: 35px;
     border: solid 3px rgb(65, 65, 65);
 }
 
 .Wgithub_T{
     font-size: 20px;
+}
 
+.function{
+    margin-top: 80px;
+    border: solid 3px black;
+    border-radius: 100px;
+}
+
+.function_T{
+    font-size: 20px;
+    width: 1800px;
+    margin-left: 45px;
+}
+
+.system{
+    margin-top: 80px;
+    background-color: rgb(209, 209, 209); ;
+    border-radius: 50px;
+    width: 900px;
+    margin-left: 475px;
+    padding: 35px;
+    border: solid 3px rgb(65, 65, 65);
+}
+
+.system_T{
+    font-size: 20px;
 }
