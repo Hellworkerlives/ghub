@@ -8,26 +8,33 @@ header{
     display: flex;
     margin-bottom: 0px;
     background-color: rgb(209, 209, 209);
+    border-radius: 35px;
 }
+
 .header_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .container_center{
     display: flex;
     margin-left: 350px;
 }
+
 .container_left{
     margin-left:80px;
 }
+
 .container_right{
     margin-left: 450px;
 }
+
 .nav{
     display: flex;
     padding-left: 20px;
 }
+
 .menu{
     font-size: 20px;
     color: rgb(24, 23, 23);
@@ -35,6 +42,7 @@ header{
     justify-content: space-between;
     padding-left: 20px;
 }
+
 .logo{
     display: flex;
     width: 80px;
@@ -47,21 +55,40 @@ h1{
 }
 
 main{
-    height: 2px;
-    background-color: black;
     position: flex;
-    bottom: 0;
-    left: 0;right: 0;
     text-align: center;
     line-height: 50px;
 }
 
 .git{
     display: flex;
+    margin-top: 80px;
+    border: solid 3px black;
+    border-radius: 100px;
 }
 
 .git_Z{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+}
+
+.git_T{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.Wgithub{
+    margin-top: 80px;
+    background-color: rgb(209, 209, 209); ;
+    border-radius: 50px;
+    width: 900px;
+    margin-left: 500px;
+    padding: 35px;
+    border: solid 3px rgb(65, 65, 65);
+}
+
+.Wgithub_T{
+    font-size: 20px;
+
 }
