@@ -9,6 +9,37 @@ header{
     margin-bottom: 0px;
     background-color: rgb(209, 209, 209);
 }
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_center{
+    display: flex;
+    margin-left: 350px;
+}
+.container_left{
+    margin-left:80px;
+}
+.container_right{
+    margin-left: 450px;
+}
+.nav{
+    display: flex;
+    padding-left: 20px;
+}
+.menu{
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.logo{
+    display: flex;
+    width: 80px;
+    align-items: right;
+}
 
 h1{
     font-size: 50px;
