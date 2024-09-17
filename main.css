@@ -1,0 +1,22 @@
+body{
+    background-color: #d8d8d8;
+    
+}
+header{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0px;
+}
+h1{
+    font-size: 50px;
+    cursor: pointer;
+}
+main{
+    height: 2px;
+    background-color: black;
+    position: flex;
+    bottom: 0;
+    left: 0;right: 0;
+    text-align: center;
+    line-height: 50px;
+}
