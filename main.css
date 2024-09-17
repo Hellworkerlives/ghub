@@ -63,8 +63,9 @@ main{
 .git{
     display: flex;
     margin-top: 80px;
-    border: solid 3px black;
+    border: solid 2px black;
     border-radius: 100px;
+    width: 1890px;
 }
 
 .git_Z{
@@ -94,8 +95,9 @@ main{
 
 .function{
     margin-top: 80px;
-    border: solid 3px black;
+    border: solid 2px black;
     border-radius: 100px;
+    width: 1890px;
 }
 
 .function_T{
@@ -116,4 +118,41 @@ main{
 
 .system_T{
     font-size: 20px;
+}
+
+.comunity{
+    margin-top: 80px;
+    border: solid 2px black;
+    border-radius: 100px;
+    width: 1890px;
+}
+
+.comunity_T{
+    font-size: 20px;
+}
+
+.intsub{
+    background-color:rgb(224, 224, 224);
+    border-radius: 100px;
+}
+
+.intsub-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.intsub-container_left{
+    width: 860px;
+    font-size: 20px;
+}
+
+.intsub-container_right{
+    width: 860px;
+    font-size: 20px;
+}
+
+.dollar{
+    width: 23px;
 }
