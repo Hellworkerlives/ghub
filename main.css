@@ -2,12 +2,14 @@ body{
     background-color: #f0f0f0;
     font-family:sans-serif;
     margin: 0;
+    max-width: auto;
 }
 
 header{
     display: flex;
     margin-bottom: 0px;
-    background-color: rgb(209, 209, 209);
+    background: linear-gradient(135deg, rgb(209, 209, 209), #c3c0bd), 
+    radial-gradient(circle at bottom, rgba(0, 0, 0, 0.3), transparent);
     border-radius: 35px;
 }
 
@@ -16,6 +18,74 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 700px){
+    .header_container{
+        display: block;
+        max-width: 700px;
+       
+    }
+    body{
+        max-width: 700px;
+        overflow: hidden;
+    }
+    header{
+        justify-content: center;
+    }
+    .container_center{
+        display: none;
+        margin-left: 0;
+    }
+    .container_left{
+        margin-left: 0;
+    }
+    .container_right{
+        margin-left: 0;
+    }
+    .nav{
+        display: none;
+        padding-left: 0;
+    }
+    .menu{
+        display: none;
+        padding-left: 0;
+    }
+    .logo{
+        display: flex;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+    .h1{
+        display: flex;
+        margin-right: 100px;
+        
+    }
+    .git-container{
+        width: 500px;
+    }
+    .git{
+        max-width: 500px;
+        display: block;
+        padding: 10px;
+        margin: 0;
+        margin-top: 0;
+        margin-left: 80px;
+    }
+    .Wgithub{
+        max-width: 700px;
+        width: 500px;
+        margin-left: 100px;
+        position: left;  
+    }
+    main{
+        position: relative;
+        max-width: 700px;
+        width: 700px;
+        
+    }
+}
+
 
 .container_center{
     display: flex;
@@ -41,6 +111,11 @@ header{
     text-decoration: none;
     justify-content: space-between;
     padding-left: 20px;
+    transition: font-size 0.2s ease;
+}
+.menu:hover {
+    font-size: 24px;
+    color:black;
 }
 
 .logo{
