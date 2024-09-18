@@ -21,7 +21,6 @@ header{
     .header_container{
         display: block;
         max-width: 700px;
-       
     }
     body{
         max-width: 700px;
@@ -81,7 +80,6 @@ header{
         position: relative;
         max-width: 700px;
         width: 700px;
-        
     }
 }
 
