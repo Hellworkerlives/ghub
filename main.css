@@ -2,6 +2,9 @@ body{
     background-color: #f0f0f0;
     font-family:sans-serif;
     margin: 0;
+    @media (max-width: 700px){
+        height: 1200px;
+    }
 }
 
 header{
@@ -21,10 +24,6 @@ header{
     .header_container{
         display: block;
         max-width: 700px;
-    }
-    body{
-        max-width: 700px;
-        overflow: hidden;
     }
     header{
         justify-content: center;
@@ -68,16 +67,16 @@ header{
         padding: 10px;
         margin: 0;
         margin-top: 0;
-        margin-left: 80px;
+        margin-left: 60px;
     }
     .Wgithub{
         max-width: 700px;
         width: 500px;
-        margin-left: 100px;
-        position: left;  
+        margin-left: 0px;
+        display: flex;
+        justify-content: left;
     }
     main{
-        position: relative;
         max-width: 700px;
         width: 700px;
     }
@@ -130,6 +129,12 @@ main{
     position: flex;
     text-align: center;
     line-height: 50px;
+    max-width: auto;
+    width: auto;
+    @media (max-width: 700px){
+        max-width: auto;
+
+    }
 }
 
 .git{
@@ -159,6 +164,10 @@ main{
     margin-left: 475px;
     padding: 35px;
     border: solid 3px rgb(65, 65, 65);
+    @media (max-width: 700px){
+        margin-left: 35px;
+        width: 500px;
+    }
 }
 
 .Wgithub_T{
@@ -170,12 +179,22 @@ main{
     border: solid 2px black;
     border-radius: 100px;
     width: 1890px;
+    @media (max-width: 700px){
+        width: 500px;
+        max-width: 700px;
+        margin-left: 55px;
+        padding-right: 30px;
+    }
 }
 
 .function_T{
     font-size: 20px;
     width: 1800px;
     margin-left: 45px;
+    @media (max-width: 700px){
+        width: auto;
+
+    }
 }
 
 .system{
@@ -186,6 +205,10 @@ main{
     margin-left: 475px;
     padding: 35px;
     border: solid 3px rgb(65, 65, 65);
+    @media (max-width: 700px){
+        margin-left: 40px;
+        width: 500px;
+    }
 }
 
 .system_T{
@@ -197,6 +220,11 @@ main{
     border: solid 2px black;
     border-radius: 100px;
     width: 1890px;
+    @media (max-width: 700px){
+        width: 500px;
+        margin-left: 55px;
+        padding: 20px;
+    }
 }
 
 .comunity_T{
@@ -206,6 +234,10 @@ main{
 .intsub{
     background-color:rgb(224, 224, 224);
     border-radius: 100px;
+    @media (max-width: 700px){
+        width: 600px;
+        margin-left: 25px;
+    }
 }
 
 .intsub-container{
@@ -218,11 +250,17 @@ main{
 .intsub-container_left{
     width: 860px;
     font-size: 20px;
+    @media (max-width: 700px){
+        width: 500px;
+    }
 }
 
 .intsub-container_right{
     width: 860px;
     font-size: 20px;
+    @media (max-width: 700px){
+        width: 500px;
+    }
 }
 
 .dollar{
@@ -232,10 +270,21 @@ main{
 .reg{
     margin-top: 100px;
     margin-bottom: 80px;
+    @media (max-width: 700px){
+        width: 600px;
+    }
 }
-
+.reg_Z{
+    @media (max-width: 700px){
+        width: 600px;
+    }
+}
 .reg_T{
     font-size: 20px;
+    @media (max-width: 700px){
+        width: 600px;
+        margin-left: 25px;
+    }
 }
 footer{
     background-color:rgb(209, 209, 209) ;
